@@ -1,14 +1,298 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="1; url=https://homes.cs.washington.edu/~rahuln/">
-        <script type="text/javascript">
-            window.location.href = "https://homes.cs.washington.edu/~rahuln/"
-        </script>
-        <title>Page Redirection</title>
-    </head>
-    <body>
-        If you are not redirected automatically, follow this <a href='https://homes.cs.washington.edu/~rahuln/'>link</a>.
-    </body>
+<html>
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1"
+>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130929044-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130929044-1');
+</script>
+<link rel="icon" 
+      type="image/png" 
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/robot_1f916.png">
+</head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<body>
+
+    <div class="page">
+
+        <div class="header">
+            <table class="header-table">
+                <tr>
+                    <td>
+                        <img class="profile" src="https://homes.cs.washington.edu/~rahuln/img/profile_new.jpg">
+                    </td>
+                    <td class="info">
+                        <h3>Rahul Nadkarni</h3>
+                        <p>
+                            CSE Ph.D. student, University of Washington<br>
+                            M.S. CSE, University of Washington, 2017<br>
+                            B.S. EECS & Bioengineering, UC Berkeley, 2015
+                        </p>
+                    </td>
+                    <td>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>rahulsnadkarni [at] gmail.com<br>
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i><a href="https://scholar.google.com/citations?hl=en&user=JTaIfZMAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a><br>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/rahulsnadkarni">LinkedIn</a><br>
+                        <i class="fa fa-github-alt" aria-hidden="true"></i><a href="https://github.com/rahuln">GitHub</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <hr>
+
+        <div class="content">
+
+            <div class="about">
+                <!--
+                <strong style="color: red;">I am on the job market for industry
+                research positions! Please reach out if you think I would be a
+                good fit.</strong><br><br>
+                -->
+                <p>I am a Ph.D. student in the <a
+                href="https://www.cs.washington.edu/">Paul G. Allen School of
+                Computer Science & Engineering</a> at the <a
+                href="https://www.washington.edu/">University of
+                Washington</a>, advised by <a
+                href="https://nasmith.github.io/">Noah Smith</a> 
+                and a member of the <a
+                href="https://noahs-ark.github.io/">ARK research group</a>. 
+                My research interests are broadly in the areas of
+                <strong>natural language processing</strong> and
+                <strong>machine learning</strong>. Topics I've worked on
+                include scientific knowledge graph completion, domain
+                adaptation, model merging, instruction-following performance
+                prediction, and factual knowledge acquisition through
+                pretraining.
+                </p>
+                <p>
+                In the past, I worked with <a
+                href="https://homes.cs.washington.edu/~ebfox/">Emily Fox</a> on
+                statistical machine learning methods for time series applied to
+                neuroimaging data.  I was fortunate to have been funded by an
+                <a
+                href="https://depts.washington.edu/dataweb/education/IGERT/overview.html">IGERT
+                fellowship in Big Data and Data Science</a> from 2017-2019. My
+                undergraduate research was in the <a
+                href="http://carmenalab.org/">Brain-Machine Interface Systems
+                Lab</a> at <a href="http://www.berkeley.edu/">UC Berkeley</a>,
+                advised by <a
+                href="https://www2.eecs.berkeley.edu/Faculty/Homepages/carmena.html">Jose
+                Carmena</a>.
+                </p>
+            </div>
+
+            <div class="publications">
+                <h3>Publications</h3>
+
+                <h4>Natural Language Processing</h4>
+                <table class="publications">
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2025-preprint.png">
+                        </td>
+                        <td class="last">
+                            <b>Rewriting History: A Recipe for Interventional Analyses to Study Data Effects on Model Behavior</b><br>
+                            <u>Rahul Nadkarni</u>, Yanai Elazar*, Hila Gonen*, Noah A. Smith<br>
+                            <em>Transactions of the Association for Computational Linguistics (TACL, to appear)</em>, 2026<br>
+                            <a class="btn btn-default btn-xs" href="https://www.arxiv.org/pdf/2510.14261"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>paper</a>
+                            <a class="btn btn-default btn-xs" href="https://www.arxiv.org/abs/2510.14261"><i class="fa fa-folder-open-o" aria-hidden="true"></i>arXiv</a>
+                            <a class="btn btn-default btn-xs" href="https://github.com/rahuln/pretrain-intervention"><i class="fa fa-code" aria-hidden="true"></i>code</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2024-preprint.png">
+                        </td>
+                        <td class="last">
+                            <b>Third-Party Language Model Performance Prediction from Instruction</b><br>
+                            <u>Rahul Nadkarni</u>, Yizhong Wang, Noah A. Smith<br>
+                            <em>arXiv</em>, 2024<br>
+                            <a class="btn btn-default btn-xs" href="https://arxiv.org/pdf/2403.12413.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>paper</a>
+                            <a class="btn btn-default btn-xs" href="https://arxiv.org/abs/2403.12413"><i class="fa fa-folder-open-o" aria-hidden="true"></i>arXiv</a>
+                            <a class="btn btn-default btn-xs" href="https://github.com/rahuln/instr-perf-pred"><i class="fa fa-code" aria-hidden="true"></i>code</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2022-binder-preprint.png">
+                        </td>
+                        <td class="last">
+                            <b>Binding Language Models in Symbolic Languages</b><br>
+                            Zhoujun Cheng*, Tianbao Xie*, Peng Shi, Chengzu Li, <u>Rahul Nadkarni</u>, Yushi Hu, Caiming Xiong, Dragomir Radev, Mari Ostendorf, Luke Zettlemoyer, Noah A. Smith, Tao Yu<br>
+                            <em>International Conference on Learning Representations (ICLR)</em>, 2023<br>
+                            <a class="btn btn-default btn-xs" href="https://arxiv.org/pdf/2210.02875.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>paper</a>
+                            <a class="btn btn-default btn-xs" href="https://arxiv.org/abs/2210.02875"><i class="fa fa-folder-open-o" aria-hidden="true"></i>arXiv</a>
+                            <a class="btn btn-default btn-xs" href="https://github.com/xlang-ai/Binder"><i class="fa fa-code" aria-hidden="true"></i>code</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2021-akbc.png">
+                        </td>
+                        <td class="last">
+                            <b>Scientific Language Models for Biomedical Knowledge Base Completion: An Empirical Study</b><br>
+                            <u>Rahul Nadkarni</u>, David Wadden, Iz Beltagy, Noah A. Smith, Hannaneh Hajishirzi, and Tom Hope<br>
+                            <em>Automated Knowledge Base Construction (AKBC)</em>, 2021<br>
+                            <a class="btn btn-default btn-xs" href="https://arxiv.org/pdf/2106.09700.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>paper</a>
+                            <a class="btn btn-default btn-xs" href="https://arxiv.org/abs/2106.09700"><i class="fa fa-folder-open-o" aria-hidden="true"></i>arXiv</a>
+                            <a class="btn btn-default btn-xs" href="https://github.com/rahuln/lm-bio-kgc"><i class="fa fa-code" aria-hidden="true"></i>code</a>
+                            <a class="btn btn-default btn-xs" href="https://www.youtube.com/watch?v=6fW7WwD_5t4"><i class="fa fa-film" aria-hidden="true"></i>video</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <h4>Machine Learning & Neuroscience</h4>
+                <table class="publications">
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2024-jne.png">
+                        </td>
+                        <td class="last">
+                            <b>Using a linear dynamic system to measure functional connectivity from M/EEG</b><br>
+                            Jordan Drew, Nicholas Foti, <u>Rahul Nadkarni</u>, Eric Larson, Emily Fox, Adrian KC Lee<br>
+                            <em>Journal of Neural Engineering</em>, 21 (2024)<br>
+                            <a class="btn btn-default btn-xs" href="https://iopscience.iop.org/article/10.1088/1741-2552/ad5cc1/meta"><i class="fa fa-link" aria-hidden="true"></i>paper</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/brain.png">
+                        </td>
+                        <td class="last">
+                            <b>Dynamic functional connectivity in auditory attention task</b><br>
+                            Jordan Drew, Eric Larson, Nicholas Foti, <u>Rahul Nadkarni</u>, Emily Fox, Adrian KC Lee<br>
+                            <em>The Journal of the Acoustical Society of America</em>, 2021<br>
+                            <a class="btn btn-default btn-xs" href="https://asa.scitation.org/doi/abs/10.1121/10.0007922"><i class="fa fa-link" aria-hidden="true"></i>abstract</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2019-neurips-lmrl.png">
+                        </td>
+                        <td class="last">
+                            <b>A hierarchical state-space model with Gaussian process dynamics for functional connectivity estimation</b><br>
+                            <u>Rahul Nadkarni</u>, Nicholas J. Foti, Adrian KC Lee, and Emily B. Fox<br>
+                            <em>NeurIPS Workshop on Learning Meaningful Representations of Life</em>, 2019<br>
+                            <a class="btn btn-default btn-xs" href="pdf/2019-neurips-lmrl-abstract.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>abstract</a>
+                            <a class="btn btn-default btn-xs"  href="pdf/2019-neurips-lmrl-poster.pdf"><i class="fa fa-map-o" aria-hidden="true"></i>poster</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2018-preprint.png">
+                        </td>
+                        <td class="last">
+                            <b>Robust recovery of time-varying functional connectivity in MEG</b><br>
+                            <u>Rahul Nadkarni</u>, Nicholas J. Foti, and Emily B. Fox<br>
+                            <em>tech report</em>, 2018<br>
+                            <a class="btn btn-default btn-xs" href="pdf/2018-preprint.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>paper</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2017-nips-bigneuro.png">
+                        </td>
+                        <td class="last">
+                            <b>Learning dynamic functional connectivity networks from infant magnetoencephalography data</b><br>
+                            <u>Rahul Nadkarni</u>, Nicholas J. Foti, and Emily B. Fox<br>
+                            <em>NeurIPS BigNeuro Workshop</em>, 2017<br>
+                            <a class="btn btn-default btn-xs" href="pdf/2017-nips-bigneuro-abstract.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>abstract</a>
+                            <a class="btn btn-default btn-xs"  href="pdf/2017-nips-bigneuro-poster.pdf"><i class="fa fa-map-o" aria-hidden="true"></i>poster</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2017-preprint.png">
+                        </td>
+                        <td class="last">
+                            <b>Sparse plus low-rank graphical models of time series to infer functional connectivity from MEG recordings</b><br>
+                            <u>Rahul Nadkarni</u>, Nicholas J. Foti, Adrian KC Lee, and Emily B. Fox<br>
+                            <em>tech report</em>, 2017<br>
+                            <a class="btn btn-default btn-xs" href="pdf/2017-preprint.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>paper</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">
+                            <img class="pubimg hide-mobile" src="img/2016-kdd-milets.png">
+                        </td>
+                        <td class="last">
+                            <b>Sparse plus low-rank graphical models of time series for functional connectivity in MEG</b><br>
+                            Nicholas J. Foti, <u>Rahul Nadkarni</u>, Adrian KC Lee, and Emily B. Fox<br>
+                            <em>SIGKDD Workshop on Mining and Learning from Time Series</em>, 2016<br>
+                            <a class="btn btn-default btn-xs" href="pdf/2016-kdd-milets-paper.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>paper</a>
+                            <a class="btn btn-default btn-xs"  href="pdf/2016-kdd-milets-slides.pdf"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>slides</a>
+                            <a class="btn btn-default btn-xs" href="https://youtu.be/7DsbLaRWcIM"><i class="fa fa-film" aria-hidden="true"></i>talk</a>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="professional">
+                <h3>Professional Experience</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <img class="companyimg hide-mobile" src="img/facebook-logo.png">
+                        </td>
+                        <td>
+                            <b>Facebook</b><br>
+                            SWE Intern, Machine Learning (Ph.D.)<br>
+                            June – September 2021
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="companyimg hide-mobile" src="img/google-logo.png">
+                        </td>
+                        <td>
+                            <b>Google</b><br>
+                            Software Engineering Intern, Ph.D.<br>
+                            June – September 2017
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="courses">
+                <h3>Graduate Coursework</h3>
+                <ul>
+                    <li>Natural Language Processing (CSE 517)</li>
+                    <li>Machine Learning for Big Data (CSE 547)</li>
+                    <li>Computer Vision (CSE 576)</li>
+                    <li>Graphical Models (CSE 515)</li>
+                    <li>Statistical Inference (STAT 512)</li>
+                    <li>Convex Optimization (EE 578)</li>
+                    <li>Online and Adaptive Methods for Machine Learning (CSE 599I)</li>
+                    <li>Computational Neuroscience (CSE 528)</li>
+                    <li>Algorithms (CSE 527)</li>
+                    <li>Databases (CSE 544)</li>
+                </ul>
+            </div>
+
+            <div class="teaching">
+                <h3>Teaching Experience</h3>
+                <ul>
+                    <li>TA, Data Structures and Algorithms (CSE 373) - Autumn 2015, Winter 2016</li>
+                    <li>TA, Introduction to Artificial Intelligence (CSE 415) - Spring 2016, Autumn 2020</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
 </html>
